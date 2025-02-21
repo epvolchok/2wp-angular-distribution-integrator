@@ -8,4 +8,4 @@ To calculate the angular distribution, one needs to deal with 6-fold integration
 
 ![](figure06.png)
 
-Angular distribution of radiation intensity at $\alpha=5^{\circ}$: a schematic 3D distribution (a); distribution over the polar angle in $(x, z)$-coordinates (b); distribution over the azimuthal angle in the frame co-directed to laser 1 axis (c).
+**Figure.** Angular distribution of radiation intensity at $\alpha=5^{\circ}$: a schematic 3D distribution (a); distribution over the polar angle in $(x, z)$-coordinates (b); distribution over the azimuthal angle in the frame co-directed to laser 1 axis (c).
