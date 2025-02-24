@@ -8,7 +8,7 @@ To calculate the angular distribution, one needs to deal with 6-fold integration
 
 The essense of the method is to expand n-fold summation into 1-fold summation by all possible combinations of variables
 
-$$ \int_{q1} \int_{q2} \int_{q3} ... \int_{qn} f(q1, q2, q3, ..., qn) d q1 d q2 d q3 ... d qn \approx \\ \sum_{q1} \sum_{q2} \sum_{q3} ... \sum_{qn} f(q1, q2, q3, ..., qn) \Delta q1 \Delta q2 \Delta q3 ... \Delta qn  = \qquad\qquad\qquad\qquad \\ \sum_{q1, q2, q3, ..., qn} f(q1, q2, q3, ... qn) \Delta q1 \Delta q2 \Delta q3 ... \Delta qn.$$
+$$ \int_{q1} \int_{q2} \int_{q3} ... \int_{qn} f(q1, q2, q3, ..., qn) d q1 d q2 d q3 ... d qn \approx \sum_{q1} \sum_{q2} \sum_{q3} ... \sum_{qn} f(q1, q2, q3, ..., qn) \Delta q1 \Delta q2 \Delta q3 ... \Delta qn  = \qquad\qquad \sum_{q1, q2, q3, ..., qn} f(q1, q2, q3, ... qn) \Delta q1 \Delta q2 \Delta q3 ... \Delta qn.$$
 
 ![](figure06.png)
 
