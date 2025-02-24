@@ -2,7 +2,7 @@
 from mpl_toolkits import mplot3d
 import matplotlib.pyplot as plt
 import matplotlib
-#matplotlib.use('Qt5Agg')
+matplotlib.use('Qt5Agg')
 from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import numpy as np
@@ -16,7 +16,8 @@ import pprint
 import collections
 from math import pi
 
-theta, phi, r = np.genfromtxt(r'./Data/ResPowerAlpha', unpack=True, usecols=(1,3,11),skip_header=1)
+
+theta, phi, r = np.genfromtxt(r'./Scripts/Data/ResPowerAlpha', unpack=True, usecols=(1,3,11),skip_header=1)
 d_theta=pi/400.;
 d_phi=2.*pi/200.;
 
@@ -32,8 +33,8 @@ Y=np.sin(PHI)*np.sin(THETA)
 Z=np.cos(THETA)
 
 
-fig = plt.figure()
-ax = fig.gca(projection='3d')
+
+fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 
 print('plotting')
 
